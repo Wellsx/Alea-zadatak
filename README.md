@@ -5,9 +5,15 @@
 
 ---
 
-#### Pokretanje projekta
+#### Instalacija projekta
 
 `npm install` - instaliranje svih dependencia
+
+`npx playwright install` - instaliranje sva 3 browser drivera ( `npx playwright install chromium/firefox/webkit` instalira specificnog drivera)
+
+---
+
+#### Pokretanje testova
 
 `npm run test` - pokrece sve testove u headless mode na chromium/firefox/webkit browserima
 
